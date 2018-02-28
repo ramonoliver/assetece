@@ -713,6 +713,14 @@ h3 {
     line-height: 1.5;
 }
 
+.content-full {
+    padding: 60px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #797979;
+    line-height: 1.5;
+}
+
 .lista-icon {
     margin-top: 60px;
 }
@@ -736,4 +744,76 @@ h3 {
 
 .icon p {
     text-align: justify;
+}
+
+
+/*Sidebar*/
+
+.sidebar {
+    background: #f9f9f9;
+    padding-bottom: 15px;
+}
+
+.tit-sidebar {
+    padding-bottom: 30px;
+}
+
+.tit-sidebar h3 {
+    text-transform: uppercase;
+    color: #525252;
+    font-size: 15px;
+}
+
+.tit-sidebar span {
+    color: #797979;
+}
+
+.sidebar-lista {}
+
+.sidebar-lista .item-lista {
+    padding-bottom: 25px;
+}
+
+.sidebar-lista .item-lista:last-child {
+    padding-bottom: 0;
+}
+
+.img-lista {
+    margin-bottom: 15px;
+}
+
+.img-lista img {
+    width: 100%;
+    max-height: 165px;
+    object-fit: cover;
+}
+
+.sidebar-lista .item-lista .data-evento {
+    color: #525252;
+}
+
+.sidebar-lista .item-lista .data-evento span {
+    color: #00a651;
+}
+
+.sidebar-lista .tit-item {
+    padding-bottom: 15px;
+}
+
+.sidebar-lista .tit-item h5 {
+    color: #00a551;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.sidebar-lista .tit-item span {
+    color: #525252;
+    text-transform: uppercase;
+}
+
+.item-post img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
 }
