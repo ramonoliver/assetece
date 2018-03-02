@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Assetece</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="wrapper" class="internal-page">
+        <div class="top-header">
+            <div class="container">
+                <div class="top-membro pull-right">
+                    <a href="#" class="pull-right"><span class="glyphicon glyphicon-user"></span>Se tornar um membro</a>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Logo"></a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Quem somos</a></li>
+                        <li><a href="#">Notícias & Informações</a></li>
+                        <li><a href="#">Eventos/ Fotos/ Videos</a></li>
+                        <li><a href="#">Fale conosco</a></li>
+                        <li class="top-fone">Entre em contato!<span class="fone"><span class="icon-fone glyphicon glyphicon-earphone"></span>(85) 3081-0013</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div aria-label="breadcrumb" class="breadcrumb-box">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Fale conosco</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="container">
+                <div class="row content-full">
+                    <div class="col-md-9">
+                        <div class="row form-contato">
+                            <div class="col-md-12">
+                                <p>Nesta página você poderá solicitar informações, sugerir e opinar sobre o nosso site. Estamos aqui para ajudar!</p>
+                                <form action="/action_page.php">
+                                    <div class="form-group">
+                                        <label for="email">Nome:*</label>
+                                        <input type="email" class="form-control" id="email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="pwd">Telefone:</label>
+                                        <input type="phone" class="form-control" id="pwd">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="pwd">Qual o motivo do seu contato?</label>
+                                        <input type="motivo" class="form-control" id="pwd">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="sel1">Destinatário:</label>
+                                        <select class="form-control" id="sel1">
+                                              <option>Bruno Alves</option>
+                                              <option>2</option>
+                                              <option>3</option>
+                                              <option>4</option>
+                                            </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="comment">Mensagem:</label>
+                                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-default">Enviar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 sidebar">
+                        <div class="tit-sidebar">
+                            <h3>Contato Staff</h3>
+                            <span>Lorem ipsum dolor sit amet conse ctetur adipisicing elit</span>
+                        </div>
+                        <div class="sidebar-lista">
+                            <div class="item-lista item-contato">
+                                <div class="tit-item">
+                                    <h5>Bruno Ramalho Alves</h5>
+                                    <span>Coordenador Geral</span>
+                                    <a href="">bruno@assetece.com.br</a>
+                                    <p><i class="glyphicon glyphicon-earphone"></i>(85) 3081-0013</p>
+                                </div>
+                            </div>
+                            <div class="item-lista item-contato">
+                                <div class="tit-item">
+                                    <h5>Bruno Ramalho Alves</h5>
+                                    <span>Coordenador Geral</span>
+                                    <a href="">bruno@assetece.com.br</a>
+                                    <p><i class="glyphicon glyphicon-earphone"></i>(85) 3081-0013</p>
+                                </div>
+                            </div>
+                            <div class="item-lista item-contato">
+                                <div class="tit-item">
+                                    <h5>Bruno Ramalho Alves</h5>
+                                    <span>Coordenador Geral</span>
+                                    <a href="">bruno@assetece.com.br</a>
+                                    <p><i class="glyphicon glyphicon-earphone"></i>(85) 3081-0013</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <img src="images/logo.png" alt="">
+            <p class="footer-end">Rua Padre Francisco Pinto, 191 - Benfica, Fortaleza - CE, 60020-290 - (85) 3081-0013</p>
+            <p class="copyright">assetece copyright: © 2017. All rights reserved.</p>
+        </div>
+    </div>
+    </div>
+
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+</body>
+
+</html>

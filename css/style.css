@@ -212,6 +212,8 @@ h3 {
 
 .sobre img {
     padding: 20px 0 40px 0;
+    object-fit: cover;
+    width: 100%;
 }
 
 .sobre p {
@@ -714,7 +716,7 @@ h3 {
 }
 
 .content-full {
-    padding: 60px 0;
+    padding: 20px 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: #797979;
@@ -811,9 +813,153 @@ h3 {
     text-transform: uppercase;
 }
 
+.item-post {
+    margin-bottom: 40px;
+}
+
 .item-post img {
     width: 140px;
     height: 140px;
     object-fit: cover;
     border-radius: 50%;
+}
+
+.item-post h2 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: #00a54f;
+    font-size: 16px;
+}
+
+.item-post h5 {
+    margin-top: 5px;
+    color: #525252;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.leia-mais,
+.leia-outras {
+    display: block;
+    text-align: right;
+}
+
+.leia-mais a {
+    color: #2f3337;
+}
+
+.leia-mais a span {
+    color: #FFF;
+    background: #2f3337;
+    border-radius: 50%;
+    padding: 3px 7px;
+}
+
+.leia-mais a:hover span {
+    background: #00a54f;
+}
+
+.leia-outras a {
+    color: #FFF;
+    background: #00a54f;
+    padding: 10px 20px;
+}
+
+.content-post {
+    padding-right: 30px;
+}
+
+.content-post img {
+    border-radius: 0;
+    object-fit: cover;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: 50px 0;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+    color: #2f3337;
+}
+
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+    color: #FFF;
+    background-color: #30a9d4;
+    border-color: #30a9d4;
+}
+
+.btn-default {
+    color: #FFF;
+    background-color: #00a54f;
+    border: 0;
+    border-radius: 0;
+    float: right;
+    padding: 10px 30px;
+}
+
+.form-contato input,
+.form-contato select {
+    width: 400px;
+    background: #f9f9f9;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.form-contato textarea {
+    background: #f9f9f9;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.item-contato .tit-item h5,
+.item-contato .tit-item span {
+    text-transform: none;
+}
+
+.item-contato i {
+    color: #00a54f;
+    font-size: 16px;
+    padding-right: 5px;
+    top: 4px;
+}
+
+.sidebar-lista .item-contato .tit-item {
+    padding-bottom: 0;
+}
+
+.item-contato a {
+    color: #a5a5a5;
+    text-decoration: underline;
+    padding: 5px 0;
+    display: block;
+}
+
+.fotos {
+    margin: 20px 0 60px 0;
+}
+
+.img-fotos {
+    margin-bottom: 10px;
+}
+
+.img-fotos img {
+    width: 100%;
+    max-height: 145px;
+    height: auto;
+    border-radius: 0;
+    object-fit: cover;
+}
+
+.fotos .media-carousel .carousel-control.left,
+.fotos .media-carousel .carousel-control.right {
+    margin-top: 80px;
+    color: #b8e6cf;
+    text-shadow: none;
 }
